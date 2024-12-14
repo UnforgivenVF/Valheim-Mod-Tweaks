@@ -1691,21 +1691,21 @@
       "Object": "TreasureChest_meadows",
       "Drops": [ [1, 65], [2, 35] ],
       "Loot": [
-        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 84, 15, 1, 0, 0] }
+        { "Item": "Tier1Everything", "Rarity": [ 84, 15, 1, 0, 0] }
       ]
     },
     {
       "Object": "TreasureChest_blackforest",
       "Drops": [ [1, 70], [2, 30] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 75, 20, 5, 0, 0] }
+        { "Item": "Tier2Everything", "Rarity": [ 75, 20, 5, 0, 0] }
       ]
     },
     {
       "Object": "TreasureChest_forestcrypt",
       "Drops": [ [1, 60], [2, 30], [3, 10] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 75, 20, 5, 0, 0] }
+        { "Item": "Tier2Everything", "Rarity": [ 75, 20, 5, 0, 0] }
       ]
     },
     {
@@ -1717,7 +1717,7 @@
       "Object": "TreasureChest_trollcave",
       "Drops": [ [1, 60], [2, 30], [3, 10] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 75, 20, 5, 0, 0] }
+        { "Item": "Tier2Everything", "Rarity": [ 75, 20, 5, 0, 0] }
       ]
     },
     {
