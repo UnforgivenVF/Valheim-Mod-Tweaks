@@ -1,0 +1,1889 @@
+{
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // MAGIC EFFECT COUNTS
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "MagicEffectsCount": {
+    "Magic":      [ [1, 80], [2, 18], [3,  2] ],
+    "Rare":       [ [2, 80], [3, 18], [4,  2] ],
+    "Epic":       [ [3, 80], [4, 18], [5,  2] ],
+    "Legendary":  [ [4, 80], [5, 18], [6,  2] ],
+    "Mythic":     [ [5, 80], [6, 18], [7,  2] ]
+  },
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // ITEM RESTRICTIONS
+  //   - It's not recommended to change any of these, but if you wanted to allow Dyrnwyn or tankards for some reason,
+  //     remove them from this list. You really shouldn't remove Unarmed or CAPE TEST from this list.
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "RestrictedItems": [
+    "$item_tankard",
+    "$item_tankard_odin",
+    "Unarmed",
+    "CAPE TEST",
+    "Cheat sword",
+    "$item_sword_fire",
+    "$item_shield_iron_square",
+    "$item_knife_butcher",
+    "$item_pickaxe_stone"
+  ], 
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // ITEM SETS
+  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  "ItemSets": [
+
+    // Enchanting Mats
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "EnchantingMats",
+      "Loot": [
+        { "Item": "Tier0Mats" },
+        { "Item": "Tier1Mats" },
+        { "Item": "Tier2Mats" },
+        { "Item": "Tier3Mats" },
+        { "Item": "Tier4Mats" }
+      ]
+    },
+    {
+      "Name": "Tier0Mats",
+      "Loot": [
+        { "Item": "DustMagic"    },
+        { "Item": "EssenceMagic" },
+        { "Item": "ReagentMagic" }
+      ]
+    },
+    {
+      "Name": "Tier1Mats",
+      "Loot": [
+        { "Item": "DustRare"    },
+        { "Item": "EssenceRare" },
+        { "Item": "ReagentRare" }
+      ]
+    },
+    {
+      "Name": "Tier2Mats",
+      "Loot": [
+        { "Item": "DustEpic"    },
+        { "Item": "EssenceEpic" },
+        { "Item": "ReagentEpic" }
+      ]
+    },
+    {
+      "Name": "Tier3Mats",
+      "Loot": [
+        { "Item": "DustLegendary"    },
+        { "Item": "EssenceLegendary" },
+        { "Item": "ReagentLegendary" }
+      ]
+    },
+    {
+      "Name": "Tier4Mats",
+      "Loot": [
+        { "Item": "DustMythic"    },
+        { "Item": "EssenceMythic" },
+        { "Item": "ReagentMythic" }
+      ]
+    },
+    {
+      "Name": "EnchantingRunestones",
+      "Loot": [
+        { "Item": "RunestoneMagic"      },
+        { "Item": "RunestoneRare"       },
+        { "Item": "RunestoneEpic"       },
+        { "Item": "RunestoneLegendary"  },
+        { "Item": "RunestoneMythic"     }
+      ]
+    },
+    {
+      "Name": "Tier0Runestone",
+      "Loot": [ { "Item": "RunestoneMagic" } ]
+    },
+    {
+      "Name": "Tier1Runestone",
+      "Loot": [ { "Item": "RunestoneRare" } ]
+    },
+    {
+      "Name": "Tier2Runestone",
+      "Loot": [ { "Item": "RunestoneEpic" } ]
+    },
+    {
+      "Name": "Tier3Runestone",
+      "Loot": [ { "Item": "RunestoneLegendary" } ]
+    },
+    {
+      "Name": "Tier4Runestone",
+      "Loot": [ { "Item": "RunestoneMythic" } ]
+    },
+    {
+      "Name": "ModUtility",
+      "Loot": [
+        { "Item": "LeatherBelt"  },
+        { "Item": "SilverRing"   },
+        { "Item": "GoldRubyRing" }
+      ]
+    },
+    // Tier 0 Items
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier0Weapons",
+      "Loot": [
+        { "Item": "Club",     "Rarity": [ 97, 2, 1, 0, 0 ] },
+        { "Item": "AxeStone", "Rarity": [ 97, 2, 1, 0, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier0Tools",
+      "Loot": [
+        { "Item": "Hammer", "Weight": 2, "Rarity": [ 65, 25, 10, 0, 0 ] },
+        { "Item": "Hoe",    "Weight": 1, "Rarity": [ 65, 25, 10, 0, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier0Armor",
+      "Loot": [
+        { "Item": "ArmorRagsLegs",  "Rarity": [ 97, 2, 1, 0, 0 ] },
+        { "Item": "ArmorRagsChest", "Rarity": [ 97, 2, 1, 0, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier0Shields",
+      "Loot": [
+        { "Item": "ShieldWood",       "Weight": 3, "Rarity": [ 97, 2, 1, 0, 0 ] },
+        { "Item": "ShieldWoodTower",  "Weight": 1, "Rarity": [ 97, 2, 1, 0, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier0Everything",
+      "Loot": [
+        { "Item": "Tier0Weapons" },
+        { "Item": "Tier0Tools"   },
+        { "Item": "Tier0Armor"   },
+        { "Item": "Tier0Shields" }
+      ]
+    },
+    // Tier 1 Items
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier1Weapons",
+      "Loot": [
+        { "Item": "AxeFlint",          "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "SpearFlint",        "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "KnifeFlint",        "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "Bow",               "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "AtgeirFlint_TW",    "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "BastardFlint_TW",   "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "BattleaxeFlint_TW", "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "FistFlint_TW",      "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "MaceFlint_TW",      "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "SwordFlint_TW",     "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "ThrowAxeFlint_TW",  "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "GreatClub_TW",      "Weight": 2, "Rarity": [ 94, 3, 2, 1, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier1Armor",
+      "Loot": [
+        { "Item": "ArmorLeatherLegs",     "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "ArmorLeatherChest",    "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "HelmetLeather",        "Weight": 1, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "CapeDeerHide",         "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "HelmetLeather_TW",     "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "ArmorLeatherChest_TW", "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] },
+        { "Item": "ArmorLeatherLegs_TW",  "Weight": 3, "Rarity": [ 94, 3, 2, 1, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier1Tools",
+      "Loot": [
+        { "Item": "PickaxeAntler", "Rarity": [ 94, 3, 2, 1, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier1Shields",
+      "Loot": [
+        { "Item": "ShieldBoneTower", "Rarity": [ 94, 3, 2, 1, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier1Everything",
+      "Loot": [
+        { "Item": "Tier1Weapons" },
+        { "Item": "Tier1Shields" },
+        { "Item": "Tier1Armor"   },
+        { "Item": "Tier1Tools"   }
+      ]
+    },
+    // Tier 2 Items
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "TrollArmor",
+      "Loot": [
+        { "Item": "ArmorTrollLeatherLegs",  "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorTrollLeatherChest", "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetTrollLeather",     "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "CapeTrollHide",          "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetRogue_TW",         "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorRogueLegs_TW",      "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorRogueChest_TW",     "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "CapeTrollBlack_TW",      "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier2Weapons",
+      "Loot": [
+        { "Item": "KnifeCopper",              "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "SledgeStagbreaker",        "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "SwordBronze",              "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "AxeBronze",                "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "MaceBronze",               "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "AtgeirBronze",             "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "SpearBronze",              "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "SpearChitin",              "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "BowFineWood",              "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "BattleAxeBronze_TW",       "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "FistBronze_TW",            "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "KnifeBronze_TW",           "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "ClaymoreBronze_TW",        "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "CrossbowBronze_TW",        "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "SledgeBronze_TW",          "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "CudgelBronze_TW",          "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "ThrowAxeBronze_TW",        "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "MaceChitin_TW",            "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "FistChitin_TW",            "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "SwordChitin_TW",           "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "WarPikeChitin_TW",         "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "Dual_KnifeChitin_TW",      "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },		
+	      { "Item": "KnifeChitin",              "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "BastardBone_TW",           "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "ClaymoreBone_TW",          "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "DualKnifeBone_TW",         "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "SwordBone_TW",             "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "WarpikeBone_TW",           "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "CrossbowChitin_TW",        "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "BattleHammerTrollbone_TW", "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "BowTrollbone_TW",          "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "StaffBlackforest_TW",      "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] }			
+      ]
+    },
+    {
+      "Name": "Tier2Armor",
+      "Loot": [
+        { "Item": "ArmorBronzeLegs",      "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorBronzeChest",     "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetBronze",         "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetHunter_TW",        "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorHunterChest_TW",    "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorHunterLegs_TW",     "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetVigorous_TW",      "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorVigorousChest_TW",  "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorVigorousLegs_TW",   "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetRazorback_TW",     "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorRazorbackChest_TW", "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorRazorbackLegs_TW",  "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetCircletBronze_TW",                "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetCircletBronze_Elemental_TW",      "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetCircletBronze_Hunter_TW",         "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetCircletBronze_Sneak_TW",          "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetCircletBronze_Stamina_TW",        "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "CapeSpellslinger_Blackforest_TW",       "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "HelmetSpellslinger_Blackforest_TW",     "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorSpellSlingerChest_BlackForest_TW", "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ArmorSpellSlingerLegs_BlackForest_TW",  "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier2Shields",
+      "Loot": [
+        { "Item": "ShieldBronzeBuckler",    "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "ShieldBronzeBanded_TW",  "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
+	      { "Item": "ShieldBronzeTower_TW",   "Weight": 1, "Rarity": [ 80, 14, 4, 2, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier2Tools",
+      "Loot": [
+        { "Item": "PickaxeBronze", "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "Cultivator",    "Rarity": [ 80, 14, 4, 2, 0 ] }
+      ]
+    },
+    {
+      "Name": "Tier2Everything",
+      "Loot": [
+        { "Item": "TrollArmor"   },
+        { "Item": "Tier2Weapons" },
+        { "Item": "Tier2Armor"   },
+        { "Item": "Tier2Shields" },
+        { "Item": "Tier2Tools"   }
+      ]
+    },
+    // Tier 3 Items
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier3Weapons",
+      "Loot": [
+        { "Item": "Battleaxe",           "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "SwordIron",           "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "AxeIron",             "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "SledgeIron",          "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "MaceIron",            "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "AtgeirIron",          "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "SpearElderbark",      "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "BowHuntsman",         "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "BattleAxeIron_TW",    "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },	
+        { "Item": "BattleHammerIron_TW", "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+	      { "Item": "ClaymoreChitin_TW",   "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
+        { "Item": "ClaymoreIron_TW",     "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+	      { "Item": "BastardChitin_TW",    "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "CrossbowIron_TW",     "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "DualKnifeIron_TW",    "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "KnifeIron_TW",        "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "FistIron_TW",         "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "SledgeIron_TW",       "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "CudgelIron_TW",       "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ThrowAxeIron_TW",     "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "KnifeWrench_TW",      "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "StaffSwamp_TW",       "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] }		
+      ]
+    },
+    {
+      "Name": "Tier3Armor",
+      "Loot": [
+        { "Item": "ArmorRootChest",            "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorRootLegs",             "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetRoot",                "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorIronLegs",             "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorIronChest",            "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetIron",                "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "CapeRotten_TW",             "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetRogueIron_TW",        "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorRogueIronChest_TW",    "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorRogueIronLegs_TW",     "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetVigorousIron_TW",     "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorVigorousIronChest_TW", "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorVigorousIronLegs_TW",  "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetHunterIron_TW",       "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorHunterChestIron_TW",   "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorHunterLegsIron_TW",    "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetWarrior_TW",          "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorWarriorChest_TW",      "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorWarriorLegs_TW",       "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetCircletIron_Elemental_TW",  "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetCircletIron_Hunter_TW",     "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetCircletIron_Sneak_TW",      "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetCircletIron_Stamina_TW",    "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "CapeSpellSlinger_Swamp_TW",       "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "HelmetSpellSlinger_Swamp_TW",     "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorSpellSlingerChest_Swamp_TW", "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ArmorSpellSlingerLegs_Swamp_TW",  "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] }
+      ]
+    },
+    {
+      "Name": "Tier3Shields",
+      "Loot": [
+        { "Item": "ShieldBanded",           "Weight": 5, "Rarity": [ 38, 50, 8, 3, 1 ] },
+        { "Item": "ShieldIronTower",        "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+	      { "Item": "ShieldChitin_TW",        "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
+	      { "Item": "ShieldChitinTower_TW",   "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] },
+	      { "Item": "ShieldChitinBuckler_TW", "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] }
+      ]
+    },
+    {
+      "Name": "Tier3Tools",
+      "Loot": [
+        { "Item": "PickaxeIron", "Weight": 1, "Rarity": [ 38, 50, 8, 3, 1 ] }
+      ]
+    },
+    {
+      "Name": "Tier3Everything",
+      "Loot": [
+        { "Item": "Tier3Weapons" },
+        { "Item": "Tier3Armor"   },
+        { "Item": "Tier3Shields" },
+        { "Item": "Tier3Tools"   }
+      ]
+    },
+    // Tier 4 Items
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier4Weapons",
+      "Loot": [
+        { "Item": "SwordSilver",                 "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "SpearWolfFang",               "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "MaceSilver",                  "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "KnifeSilver",                 "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "FistFenrirClaw",              "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "BowDraugrFang",               "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "AtgeirSilver_TW",             "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "BattleaxeCrystalAmethyst_TW", "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "BattleaxeCrystalEmerald_TW",  "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "BattleaxeCrystal_TW",         "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "WarpikeObsidian_TW",          "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "AxeSilver_TW",                "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "BastardSilver_TW",            "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "BattleAxeSilver_TW",          "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "BattleHammerSilver_TW",       "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "FistSilver_TW",               "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ClaymoreSilver_TW",           "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "CrossbowSilver_TW",           "Weight": 4, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "DualKnifeSilver_TW",          "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "PickAxeSilver_TW",            "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "SledgeSilver_TW",             "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ThrowAxeSilver_TW",           "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "StaffMountain_TW",            "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] }
+      ]
+    },
+    {
+      "Name": "Tier4Armor",
+      "Loot": [
+        { "Item": "ArmorFenringChest",            "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorFenringLegs",             "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetFenring",                "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorWolfLegs",                "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorWolfChest",               "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetDrake",                  "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+	      { "Item": "CapeWolf",                     "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetFenrir_TW",              "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorFenrirChest_TW",          "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorFenrirLegs_TW",           "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetHunterSilver_TW",        "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorHunterChestSilver_TW",    "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorHunterLegsSilver_TW",     "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetRogueSilver_TW",         "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorRogueSilverChest_TW",     "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorRogueSilverLegs_TW",      "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetVigorousSilver_TW",      "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorVigorousSilverChest_TW",  "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorVigorousSilverLegs_TW",   "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetWarriorSilver_TW",       "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorWarriorSilverChest_TW",   "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorWarriorSilverLegs_TW",    "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetVidar_TW",               "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorVidarChest_TW",           "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorVidarLegs_TW",            "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetCircletSilver_Elemental_TW",   "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetCircletSilver_Hunter_TW",      "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetCircletSilver_Sneak_TW",       "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetCircletSilver_Stamina_TW",     "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "CapeSpellslinger_Mountain_TW",       "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "HelmetSpellSlinger_Mountain_TW",     "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorSpellSlingerChest_Mountain_TW", "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ArmorSpellSlingerLegs_Mountain_TW",  "Weight": 5, "Rarity": [ 5, 35, 50, 17, 3 ] }
+      ]
+    },
+    {
+      "Name": "Tier4Shields",
+      "Loot": [
+        { "Item": "ShieldSilver",           "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ShieldSilverBuckler_TW", "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] },
+        { "Item": "ShieldSerpentscale",     "Weight": 1, "Rarity": [ 5, 35, 50, 17, 3 ] }
+      ]
+    },
+    {
+      "Name": "Tier4Everything",
+      "Loot": [
+        { "Item": "Tier4Weapons" },
+        { "Item": "Tier4Armor"   },
+        { "Item": "Tier4Shields" }
+      ]
+    },
+    // Tier 5 Items
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier5Weapons",
+      "Loot": [
+        { "Item": "AtgeirBlackmetal",          "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "AxeBlackMetal",             "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "KnifeBlackMetal",           "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "SwordBlackmetal",           "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "MaceNeedle",                "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "BastardBlackmetal_TW",      "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "BattleaxeBlackmetal_TW",    "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "BattlehammerBlackmetal_TW", "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "BowBlackmetal_TW",          "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "FistBlackmetal_TW",         "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ClaymoreBlackmetal_TW",     "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "CrossbowBlackmetal_TW",     "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "GreatbowBlackmetal_TW",     "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "LanceBlackmetal_TW",        "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "Sword_Scimitar_TW",         "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "DualSwordScimitar_TW",      "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "SledgeBlackmetal_TW",       "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "SpearBlackmetal_TW",        "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ThrowAxeBlackmetal_TW",     "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "TridentBlackmetal_TW",      "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "WarpikeBlackmetal_TW",      "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "StaffPlains_TW",            "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] }		
+      ]
+    },
+    {
+      "Name": "Tier5Armor",
+      "Loot": [
+        { "Item": "ArmorPaddedGreaves",      "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorPaddedCuirass",      "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetPadded",            "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "CapeLinen",               "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "CapeLox",                 "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetRogueBM_TW",        "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorRogueBMChest_TW",    "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorRogueBMLegs_TW",     "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetFenrirBM_TW",       "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorFenrirBMChest_TW",   "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorFenrirBMLegs_TW",    "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetVigorousBM_TW",     "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorVigorousBMChest_TW", "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorVigorousBMLegs_TW",  "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetVidarBM_TW",        "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorVidarBMChest_TW",    "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorVidarBMLegs_TW",     "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetWarriorBM_TW",      "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorWarriorBMChest_TW",  "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorWarriorBMLegs_TW",   "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetHunterBM_TW",       "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorHunterChestBM_TW",   "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorHunterLegsBM_TW",    "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetBold_TW",           "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorBoldChest_TW",       "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorBoldLegs_TW",        "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetCircletBM_Elemental_TW",     "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetCircletBM_Hunter_TW",        "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetCircletBM_Sneak_TW",         "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetCircletBM_Stamina_TW",       "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "CapeSpellSlinger_Plains_TW",       "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "HelmetSpellSlinger_Plains_TW",     "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorSpellSlingerChest_Plains_TW", "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ArmorSpellSlingerLegs_Plains_TW",  "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] }
+      ]
+    },
+    {
+      "Name": "Tier5Shields",
+      "Loot": [
+        { "Item": "ShieldBlackmetal",           "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ShieldBlackmetalTower",      "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] },
+        { "Item": "ShieldBlackmetalBuckler_TW", "Weight": 1, "Rarity": [ 0, 15, 60, 20, 5 ] }
+      ]
+    },
+    {
+      "Name": "Tier5Everything",
+      "Loot": [
+        { "Item": "Tier5Weapons" },
+        { "Item": "Tier5Armor"   },
+        { "Item": "Tier5Shields" }
+      ]
+    },
+    // Tier 6 Items
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier6Weapons",
+      "Loot": [
+        { "Item": "SwordMistwalker",     "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "THSwordKrom",         "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "StaffFireball",       "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "StaffIceShards",      "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "StaffShield",         "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "StaffSkeleton",       "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "AtgeirHimminAfl",     "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "KnifeSkollAndHati",   "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "AxeJotunBane",        "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "SpearCarapace",       "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "SledgeDemolisher",    "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "BowSpineSnap",        "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "CrossbowArbalest",    "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "SledgeDemolisher_TW",   "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "AxeDvergr_TW",          "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "BastardDvergr_TW",      "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "BattleaxeDvergr_TW",    "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "BattleHammerDvergr_TW", "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ClaymoreDvergr_TW",     "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "FistDvergr_TW",         "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "GreatbowDvergr_TW",     "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "LanceDvergr_TW",        "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "MaceDvergr_TW",         "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ThrowAxeDvergr_TW",     "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "WarpikeDvergr_TW",      "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "StaffMistlands_TW",     "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] }
+      ]
+    },
+    {
+      "Name": "Tier6Armor",
+      "Loot": [
+        { "Item": "ArmorCarapaceChest",          "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorCarapaceLegs",           "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetCarapace",              "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorMageChest",              "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorMageLegs",               "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetMage",                  "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "CapeFeather",                 "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetHunterCarapace_TW",       "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorHunterChestCarapace_TW",   "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorHunterLegsCarapace_TW",    "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetRogueCarapace_TW",        "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorRogueCarapaceChest_TW",    "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorRogueCarapaceLegs_TW",     "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetFenrirCarapace_TW",       "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorFenrirCarapaceChest_TW",   "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorFenrirCarapaceLegs_TW",    "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetBoldCarapace_TW",         "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorBoldCarapaceChest_TW",     "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorBoldCarapaceLegs_TW",      "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetVigorousCarapace_TW",     "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorVigorousCarapaceChest_TW", "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorVigorousCarapaceLegs_TW",  "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetVidarCarapace_TW",        "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorVidarCarapaceChest_TW",    "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorVidarCarapaceLegs_TW",     "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetWarriorCarapace_TW",      "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorWarriorCarapaceChest_TW",  "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorWarriorCarapaceLegs_TW",   "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "CapeSpellslinger_Mistlands_TW",       "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetSpellslinger_Mistlands_TW",     "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorSpellslingerChest_Mistlands_TW", "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ArmorSpellslingerLegs_Mistlands_TW",  "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetCircletCarapace_Elemental_TW",  "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetCircletCarapace_Hunter_TW",     "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetCircletCarapace_Sneak_TW",      "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "HelmetCircletCarapace_Stamina_TW",    "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] }
+      ]
+    },
+    {
+      "Name": "Tier6Shields",
+      "Loot": [
+        { "Item": "ShieldCarapace",         "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
+        { "Item": "ShieldCarapaceBuckler",  "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] }
+      ]
+    },
+    {
+      "Name": "Tier6Tools",
+      "Loot": [
+        { "Item": "PickaxeBlackMetal", "Weight": 1, "Rarity": [ 0, 10, 50, 30, 10 ] }
+      ]
+    },
+    {
+      "Name": "Tier6Everything",
+      "Loot": [
+        { "Item": "Tier6Weapons" },
+        { "Item": "Tier6Armor"   },
+        { "Item": "Tier6Shields" },
+        { "Item": "Tier6Tools"   }
+      ]
+    },
+    // Tier 7 Items
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Name": "Tier7Weapons",
+      "Loot": [
+        { "Item": "SwordNiedhogg",          "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "THSwordSlayer",          "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "SwordDyrnwyn",           "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "AxeBerzerkr",            "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "StaffClusterbomb",       "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "StaffLightning",         "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "StaffRedTroll",          "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "StaffGreenRoots",        "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "MaceEldner",             "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "SpearSplitner",          "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "BowAshlands",            "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "AxeFlamemetal_TW",       "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "DualKnifeFlamemetal_TW", "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "PickaxeFader_TW",        "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "WarpikeFlamemetal_TW",   "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] }
+      ]
+    },
+    {
+      "Name": "Tier7Armor",
+      "Loot": [
+        { "Item": "ArmorFlametalChest",            "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorFlametalLegs",             "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "HelmetFlametal",                "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorAshlandsMediumChest",      "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorAshlandsMediumlegs",       "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "HelmetAshlandsMediumHood",      "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorMageChest_Ashlands",       "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorMageLegs_Ashlands",        "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "HelmetMage_Ashlands",           "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "CapeAsh",                       "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "CapeAsksvin",                   "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "HelmetBoldFlametal_TW",         "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorBoldFlametalChest_TW",     "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorBoldFlametalLegs_TW",      "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "HelmetLegionFlametal_TW",       "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorLegionFlametalChest_TW",   "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorLegionFlametalLegs_TW",    "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "HelmetVidarFlametal_TW",        "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorVidarFlametalChest_TW",    "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorVidarFlametalLegs_TW",     "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "HelmetWarriorFlametal_TW",      "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorWarriorFlametalChest_TW",  "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorWarriorFlametalLegs_TW",   "Weight": 2, "Rarity": [ 0, 5, 35, 45, 15 ] },
+		    { "Item": "HelmetRogueTyranium_TW",        "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorRogueTyraniumChest_TW",    "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+		    { "Item": "ArmorRogueTyraniumLegs_TW",     "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+		    { "Item": "HelmetVigorousTyranium_TW",     "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ArmorVigorousTyraniumChest_TW", "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] },
+		    { "Item": "ArmorVigorousTyraniumLegs_TW",  "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] }
+      ]
+    },
+    {
+      "Name": "Tier7Shields",
+      "Loot": [
+        { "Item": "ShieldFlametal",       "Weight": 3, "Rarity": [ 0, 5, 35, 45, 15 ] },
+        { "Item": "ShieldFlametalTower",  "Weight": 1, "Rarity": [ 0, 5, 35, 45, 15 ] }
+      ]
+    },
+    {
+      "Name": "Tier7Everything",
+      "Loot": [
+        { "Item": "Tier7Weapons" },
+        { "Item": "Tier7Armor"   },
+        { "Item": "Tier7Shields" }
+      ]
+    }
+  ],
+  "LootTables": [
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // CREATURES
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // Tier 0 Mobs [Meadows] (Greyling, Deer, Boar, Neck)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Tier0Mob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 100] ],
+          "Loot": [
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 100, 0, 0, 0, 0 ] },		  
+            { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 100, 0, 0, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 95], [1, 5] ],
+          "Loot": [
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 95, 5, 0, 0, 0 ] },
+            { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 95, 5, 0, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 90], [1, 10] ],
+          "Loot": [
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 90, 10, 0, 0, 0 ] },
+            { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 90, 10, 0, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 80], [1, 20] ],
+          "Loot": [
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 80, 15, 5, 0, 0 ] },
+            { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 80, 15, 5, 0, 0 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 70], [1, 30] ],
+          "Loot": [
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 70, 19, 10, 1, 0 ] },
+            { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 70, 19, 10, 1, 0 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 60], [1, 39], [2, 1] ],
+          "Loot": [
+            { "Item": "Tier0Everything", "Weight": 1, "Rarity": [ 60, 20, 15, 5, 0 ] },
+            { "Item": "Tier1Everything", "Weight": 2, "Rarity": [ 60, 20, 15, 5, 0 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 2 Mobs [Forest] (Greydwarf, Skeleton, Greydwarf Brute, Greydwarf Shaman, Poison Skeleton, Troll, Ghost)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Tier2Mob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 90], [1, 10] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Rarity": [ 50, 47, 2, 1, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 80], [1, 20] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Rarity": [ 40, 53, 5, 2, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 70], [1, 30] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Rarity": [ 29, 59, 9, 3, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 55], [1, 44], [2, 1] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Rarity": [ 15, 65, 15, 5, 0 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 40], [1, 58], [2, 2] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Rarity": [ 0, 70, 20, 10, 0 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 25], [1, 71], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier2Everything", "Rarity": [ 0, 60, 25, 15, 0 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 3 Mobs [Swamp] (Blob, Draugr, Draugr Archer, Leech, Surtling, Draugr Elite, Oozer, Wraith)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Tier3Mob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 85], [1, 15] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Rarity": [ 24, 73, 2, 1, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 75], [1, 25] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Rarity": [ 15, 78, 5, 2, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 65], [1, 34], [2, 1] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Rarity": [ 5, 83, 9, 3, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 50], [1, 48], [2, 2] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Rarity": [ 0, 80, 15, 5, 0 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 35], [1, 61], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Rarity": [ 0, 70, 20, 10, 0 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 20], [1, 74], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Rarity": [ 0, 60, 25, 15, 0 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 4 Mobs [Mountain] (Wolf, Drake, Stone Golem, Fenring, Serpent)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Tier4Mob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 75], [1, 24], [2, 1] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Rarity": [ 0, 50, 49, 4, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 60], [1, 38], [2, 2] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Rarity": [ 0, 30, 65, 5, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 45], [1, 51], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Rarity": [ 0, 10, 80, 10, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 25], [1, 69], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Rarity": [ 0, 0, 85, 15, 0 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 5], [1, 87], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Rarity": [ 0, 0, 80, 20, 0 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 86], [2, 10], [3, 4] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Rarity": [ 0, 0, 75, 25, 0 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 5 Mobs [Plains] (Deathsquito, Lox, Fuling, Fuling Archer, Fuling Berserker, Fuling Shaman)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Tier5Mob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 70], [1, 28], [2, 2] ],
+          "Loot": [
+            { "Item": "Tier5Everything", "Rarity": [ 0, 25, 65, 10, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 50], [1, 46], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier5Everything", "Rarity": [ 0, 0, 85, 15, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 30], [1, 64], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "Tier5Everything", "Rarity": [ 0, 0, 80, 20, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 5], [1, 87], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "Tier5Everything", "Rarity": [ 0, 0, 75, 25, 0 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 0], [1, 86], [2, 10], [3, 4] ],
+          "Loot": [
+            { "Item": "Tier5Everything", "Rarity": [ 0, 0, 70, 30, 0 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 80], [2, 15], [3, 5] ],
+          "Loot": [
+            { "Item": "Tier5Everything", "Rarity": [ 0, 0, 65, 35, 0 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 6 Mobs [Mistlands] (Tick, Seeker, SeekerBrute, Gjall)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Tier6Mob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 65], [1, 32], [2, 3] ],
+          "Loot": [
+            { "Item": "Tier6Everything", "Rarity": [ 0, 15, 70, 15, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 45], [1, 51], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier6Everything", "Rarity": [ 0, 0, 79, 20, 1 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 25], [1, 69], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "Tier6Everything", "Rarity": [ 0, 0, 73, 25, 2 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 5], [1, 87], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "Tier6Everything", "Rarity": [ 0, 0, 67, 30, 3 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 0], [1, 86], [2, 10], [3, 4] ],
+          "Loot": [
+            { "Item": "Tier6Everything", "Rarity": [ 0, 0, 61, 35, 4 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 80], [2, 15], [3, 5] ],
+          "Loot": [
+            { "Item": "Tier6Everything", "Rarity": [ 0, 0, 55, 40, 5 ] }
+          ]
+        }
+      ]
+    },
+    // Tier 7 Mobs (Asksvin, Charred_Melee, Charred_Twitcher, FallenValkyrie, Morgen)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Tier7Mob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [0, 60], [1, 36], [2, 4] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Rarity": [ 0, 5, 25, 65, 5 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [0, 40], [1, 46], [2, 3], [3, 1] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Rarity": [ 0, 0, 30, 60, 10 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [0, 20], [1, 64], [2, 4], [3, 2] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Rarity": [ 0, 0, 25, 60, 15 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [0, 5], [1, 87], [2, 5], [3, 3] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Rarity": [ 0, 0, 20, 55, 25 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [0, 0], [1, 86], [2, 10], [3, 4] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Rarity": [ 0, 0, 15, 55, 30 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [0, 0], [1, 80], [2, 15], [3, 5] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Rarity": [ 0, 0, 10, 55, 35 ] }
+          ]
+        }
+      ]
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Tier 0 Mobs (Greyling, Deer, Boar, Neck)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Greyling",
+      "RefObject": "Tier0Mob"
+    },
+    {
+      "Object": "Deer",
+      "RefObject": "Tier0Mob"
+    },
+    {
+      "Object": "Boar",
+      "RefObject": "Tier0Mob"
+    },
+    {
+      "Object": "Neck",
+      "RefObject": "Tier0Mob"
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Tier 2 Mobs [Forest] (Ghost, Greydwarf, Greydwarf Brute, Greydwarf Shaman, Rancid Remains, Skeleton, Troll)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Ghost",
+      "RefObject": "Tier2Mob"
+    },
+    {
+      "Object": "Greydwarf",
+      "RefObject": "Tier2Mob"
+    },
+    {
+      "Object": "Greydwarf_Elite",
+      "RefObject": "Tier2Mob"
+    },
+    {
+      "Object": "Greydwarf_Shaman",
+      "RefObject": "Tier2Mob"
+    },
+    // Rancid Remains
+    {
+      "Object": "Skeleton_Poison",
+      "RefObject": "Tier2Mob"
+    },
+    {
+      "Object": "Skeleton",
+      "RefObject": "Tier2Mob"
+    },
+    {
+      "Object": "Troll",
+      "RefObject": "Tier2Mob"
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Tier 3 Mobs [Swamp] (Abomination, Blob, Draugr, Draugr Archer, Draugr Elite, Leech, Oozer, Surtling, Wraith)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Abomination",
+      "RefObject": "Tier3Mob"
+    },
+    {
+      "Object": "Blob",
+      "RefObject": "Tier3Mob"
+    },
+    {
+      "Object": "Draugr",
+      "RefObject": "Tier3Mob"
+    },
+    // Draugr Archer
+    {
+      "Object": "Draugr_Ranged",
+      "RefObject": "Tier3Mob"
+    },
+    {
+      "Object": "Draugr_Elite",
+      "RefObject": "Tier3Mob"
+    },
+    {
+      "Object": "Leech",
+      "RefObject": "Tier3Mob"
+    },
+    // Oozer
+    {
+      "Object": "BlobElite",
+      "RefObject": "Tier3Mob"
+    },
+    {
+      "Object": "Surtling",
+      "RefObject": "Tier3Mob"
+    },
+    {
+      "Object": "Wraith",
+      "RefObject": "Tier3Mob"
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Tier 4 Mobs [Mountain](Drake, Fenring, Fenring_Cultist, Serpent, Stone Golem, Ulv, Wolf)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Drake
+    {
+      "Object": "Hatchling",
+      "RefObject": "Tier4Mob"
+    },
+    {
+      "Object": "Fenring",
+      "RefObject": "Tier4Mob"
+    },
+    {
+      "Object": "Fenring_Cultist",
+      "RefObject": "Tier4Mob"
+    },
+    {
+      "Object": "Serpent",
+      "RefObject": "Tier4Mob"
+    },
+    {
+      "Object": "StoneGolem",
+      "RefObject": "Tier4Mob"
+    },
+    {
+      "Object": "Ulv",
+      "RefObject": "Tier4Mob"
+    },
+    {
+      "Object": "Wolf",
+      "RefObject": "Tier4Mob"
+    },
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //Begin Tier 5 Mobs [Plains] (Deathsquito, Lox, Fuling, Fuling Archer, Fuling Berserker, Fuling Shaman)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    {
+      "Object": "Deathsquito",
+      "RefObject": "Tier5Mob"
+    },
+    {
+      "Object": "Lox",
+      "RefObject": "Tier5Mob"
+    },
+    // Fuling
+    {
+      "Object": "Goblin",
+      "RefObject": "Tier5Mob"
+    },
+    // Fuling Archer
+    {
+      "Object": "GoblinArcher",
+      "RefObject": "Tier5Mob"
+    },
+    // Fuling Berserker
+    {
+      "Object": "GoblinBrute",
+      "RefObject": "Tier5Mob"
+    },
+    // Fuling Shaman
+    {
+      "Object": "GoblinShaman",
+      "RefObject": "Tier5Mob"
+    },
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Tier 6 Mobs [Mistlands] (Dvergr, Gjall, Seeker, SeekerBrute, Tick)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    {
+      "Object": "Dverger",
+      "RefObject": "Tier6Mob"
+    },
+    {
+      "Object": "DvergerMage",
+      "RefObject": "Tier6Mob"
+    },
+    {
+      "Object": "DvergerMageFire",
+      "RefObject": "Tier6Mob"
+    },
+    {
+      "Object": "DvergerMageIce",
+      "RefObject": "Tier6Mob"
+    },
+    {
+      "Object": "DvergerMageSupport",
+      "RefObject": "Tier6Mob"
+    },
+    {
+      "Object": "Gjall",
+      "RefObject": "Tier6Mob"
+    },
+    {
+      "Object": "Seeker",
+      "RefObject": "Tier6Mob"
+    },
+    {
+      "Object": "SeekerBrute",
+      "RefObject": "Tier6Mob"
+    },
+    {
+      "Object": "Tick",
+      "RefObject": "Tier6Mob"
+    },
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Tier 7 Mobs (Asksvin, Charred_Melee, Charred_Twitcher, FallenValkyrie, Morgen)
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Asksvin",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "BonemawSerpent",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "Charred_Mage",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "Charred_Melee",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "FallenValkyrie",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "Charred_Archer",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "Charred_Twitcher",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "Volture",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "Morgen",
+      "RefObject": "Tier7Mob"
+    },
+    {
+      "Object": "Morgen_NonSleeping",
+      "RefObject": "Tier7Mob"
+    },
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // BOSSES
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // Eikthyr
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Eikthyr",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 70], [2, 30], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier2Everything",   "Weight": 1, "Rarity": [ 177, 20, 2, 1, 0 ] },
+            { "Item": "Tier2Shields",      "Weight": 1, "Rarity": [ 177, 20, 2, 1, 0 ] },
+            { "Item": "SledgeStagbreaker", "Weight": 1, "Rarity": [ 177, 20, 2, 1, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 60], [2, 40], [4, 0] ],
+          "Loot": [
+            { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 79, 17, 3, 1, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 50], [2, 50], [4, 0] ],
+          "Loot": [
+            { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 69, 24, 5, 2, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 35], [2, 60], [3, 5], [4, 0] ],
+          "Loot": [
+            { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 53, 32, 10, 5, 0 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [1, 20], [2, 70], [3, 10], [4, 0] ],
+          "Loot": [
+            { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 35, 40, 15, 10, 0 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 5], [2, 80], [3, 15], [4, 0] ],
+          "Loot": [
+            { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 20, 45, 20, 15, 0 ] }
+          ]
+        }
+      ]
+    },
+    // gd_king (The Elder)
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "gd_king",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 35], [2, 55], [3, 10], [4, 0] ],
+          "Loot": [
+            { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 59, 29, 10, 2, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 20], [2, 65], [3, 15], [4, 0] ],
+          "Loot": [
+            { "Item": "gd_king.1", "Weight": 1, "Rarity": [ 43, 37, 15, 5, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 5], [2, 75], [3, 20], [4, 0] ],
+          "Loot": [
+            { "Item": "gd_king.1", "Weight": 1, "Rarity": [ 25, 45, 20, 10, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 0], [2, 70], [3, 30], [4, 0] ],
+          "Loot": [
+            { "Item": "gd_king.1", "Weight": 1, "Rarity": [ 4, 50, 30, 15, 0 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [1, 0], [2, 60], [3, 40], [4, 0] ],
+          "Loot": [
+            { "Item": "gd_king.1", "Weight": 1, "Rarity": [ 0, 40, 40, 19, 1 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 0], [2, 40], [3, 50], [4, 10] ],
+          "Loot": [
+            { "Item": "gd_king.1", "Weight": 1, "Rarity": [ 0, 25, 50, 23, 2 ] }
+          ]
+        }
+      ]
+    },
+    // Bonemass
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Bonemass",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [1, 0], [2, 60], [3, 35], [4, 5] ],
+          "Loot": [
+            { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 20, 60, 15, 5, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [1, 0], [2, 45], [3, 45], [4, 10] ],
+          "Loot": [
+            { "Item": "Bonemass.1", "Weight": 1, "Rarity": [ 0, 70, 20, 10, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [1, 0], [2, 30], [3, 55], [4, 15] ],
+          "Loot": [
+            { "Item": "Bonemass.1", "Weight": 1, "Rarity": [ 0, 50, 35, 15, 0 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [1, 0], [2, 10], [3, 65], [4, 25] ],
+          "Loot": [
+            { "Item": "Bonemass.1", "Weight": 1, "Rarity": [ 0, 30, 50, 19, 1 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [1, 0], [3, 65], [4, 35] ],
+          "Loot": [
+            { "Item": "Bonemass.1", "Weight": 1, "Rarity": [ 0, 10, 65, 23, 2] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [1, 0], [3, 50], [4, 50] ],
+          "Loot": [
+            { "Item": "Bonemass.1", "Weight": 1, "Rarity": [ 0, 0, 70, 26, 4 ] }
+          ]
+        }
+      ]
+    },
+    // Moder (Dragon)
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Dragon",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [2, 20], [3, 40], [4, 30], [5, 10] ],
+          "Loot": [
+            { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 40, 50, 10, 0 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [2, 20], [3, 50], [4, 30], [5, 15] ],
+          "Loot": [
+            { "Item": "Dragon.1", "Weight": 1, "Rarity": [ 0, 20, 65, 15, 0 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [3, 50], [4, 30], [5, 20] ],
+          "Loot": [
+            { "Item": "Dragon.1", "Weight": 1, "Rarity": [ 0, 0, 80, 19, 1 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [3, 20], [4, 55], [5, 25] ],
+          "Loot": [
+            { "Item": "Dragon.1", "Weight": 1, "Rarity": [ 0, 0, 75, 23, 2 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [3, 5], [4, 65], [5, 30] ],
+          "Loot": [
+            { "Item": "Dragon.1", "Weight": 1, "Rarity": [ 0, 0, 70, 26, 4 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [4, 60], [5, 35], [6, 5] ],
+          "Loot": [
+            { "Item": "Dragon.1", "Weight": 1, "Rarity": [ 0, 0, 60, 35, 5 ] }
+          ]
+        }
+      ]
+    },
+    // Yagluth (GoblinKing)
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "GoblinKing",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [3, 20], [4, 60], [5, 15], [6, 5] ],
+          "Loot": [
+            { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 0, 0, 80, 19, 1 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [4, 70], [5, 20], [6, 10] ],
+          "Loot": [
+            { "Item": "GoblinKing.1", "Weight": 1, "Rarity": [ 0, 0, 70, 26, 4 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [4, 45], [5, 40], [6, 15] ],
+          "Loot": [
+            { "Item": "GoblinKing.1", "Weight": 1, "Rarity": [ 0, 0, 60, 35, 5 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [4, 25], [5, 50], [6, 25] ],
+          "Loot": [
+            { "Item": "GoblinKing.1", "Weight": 1, "Rarity": [ 0, 0, 40, 53, 7 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [4, 5], [5, 60], [6, 30], [7, 5] ],
+          "Loot": [
+            { "Item": "GoblinKing.1", "Weight": 1, "Rarity": [ 0, 0, 20, 70, 10 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [5, 50], [6, 40], [7, 10] ],
+          "Loot": [
+            { "Item": "GoblinKing.1", "Weight": 1, "Rarity": [ 0, 0, 0, 80, 20 ] }
+          ]
+        }
+      ]
+    },
+    // The Queen (SeekerQueen)
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "SeekerQueen",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [3, 20], [4, 60], [5, 15], [6, 5] ],
+          "Loot": [
+            { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 0, 0, 20, 70, 10 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [4, 70], [5, 20], [6, 10] ],
+          "Loot": [
+            { "Item": "SeekerQueen.1", "Weight": 1, "Rarity": [ 0, 0, 10, 60, 30 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [4, 45], [5, 40], [6, 15] ],
+          "Loot": [
+            { "Item": "SeekerQueen.1", "Weight": 1, "Rarity": [ 0, 0, 0, 50, 50 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [4, 25], [5, 50], [6, 25] ],
+          "Loot": [
+            { "Item": "SeekerQueen.1", "Weight": 1, "Rarity": [ 0, 0, 0, 40, 60 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [4, 5], [5, 60], [6, 30], [7, 5] ],
+          "Loot": [
+            { "Item": "SeekerQueen.1", "Weight": 1, "Rarity": [ 0, 0, 0, 30, 70 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [5, 50], [6, 40], [7, 10] ],
+          "Loot": [
+            { "Item": "SeekerQueen.1", "Weight": 1, "Rarity": [ 0, 0, 0, 20, 80 ] }
+          ]
+        }
+      ]
+    },
+    // The Emrald Flame (Fader)
+    ////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "Fader",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [3, 20], [4, 60], [5, 15], [6, 5] ],
+          "Loot": [
+            { "Item": "Tier8Everything", "Weight": 1, "Rarity": [ 0, 0, 0, 80, 20 ] }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [ [4, 70], [5, 20], [6, 10] ],
+          "Loot": [
+            { "Item": "Fader.1", "Weight": 1, "Rarity": [ 0, 0, 0, 70, 30 ] }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [ [4, 45], [5, 40], [6, 15] ],
+          "Loot": [
+            { "Item": "Fader.1", "Weight": 1, "Rarity": [ 0, 0, 0, 60, 40 ] }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [ [4, 25], [5, 50], [6, 25] ],
+          "Loot": [
+            { "Item": "Fader.1", "Weight": 1, "Rarity": [ 0, 0, 0, 40, 60 ] }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [ [4, 5], [5, 60], [6, 30], [7, 5] ],
+          "Loot": [
+            { "Item": "Fader.1", "Weight": 1, "Rarity": [ 0, 0, 0, 20, 80 ] }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [ [5, 50], [6, 40], [7, 10] ],
+          "Loot": [
+            { "Item": "Fader.1", "Weight": 1, "Rarity": [ 0, 0, 0, 0, 100 ] }
+          ]
+        }
+      ]
+    },
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // TREASURE CHESTS
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "TreasureChest_meadows",
+      "Drops": [ [0, 78], [1, 20], [2, 2] ],
+      "Loot": [
+        { "Item": "Tier1Everything", "Weight": 4, "Rarity": [ 97, 2, 1, 0, 0] },
+        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 97, 2, 1, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_blackforest",
+      "Drops": [ [0, 70], [1, 30] ],
+      "Loot": [
+        { "Item": "Tier2Shields",    "Weight": 1, "Rarity": [ 95, 4, 1, 0, 0] },
+        { "Item": "Tier2Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_forestcrypt",
+      "Drops": [ [0, 68], [1, 20], [2, 10], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier2Everything", "Weight": 2, "Rarity": [ 95, 4, 1, 0, 0] },
+        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 95, 4, 1, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_fCrypt",
+      "Drops": [ [0, 68], [1, 20], [2, 10], [3, 2] ],
+      "Loot": [{ "Item": "TreasureChest_forestcrypt.1" }]
+    },
+    {
+      "Object": "TreasureChest_trollcave",
+      "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0, 0] },
+        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0, 0] }
+      ]
+    },
+    {
+      "Object": "shipwreck_karve_chest",
+      "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0, 0] },
+        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 90, 9, 1, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_meadows_buried",
+      "Drops": [ [0, 48], [1, 40], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier4Everything", "Weight": 3, "Rarity": [ 70, 25, 5, 0, 0] },
+        { "Item": "Tier4Everything", "Weight": 2, "Rarity": [ 70, 25, 5, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_sunkencrypt",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier3Everything", "Weight": 3, "Rarity": [ 80, 17, 3, 0, 0] },
+        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 80, 17, 3, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureChest_swamp",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier3Everything", "Weight": 5 },
+        { "Item": "Tier3Everything", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_mountains",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier4Everything", "Weight": 4 },
+        { "Item": "Tier4Everything", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_mountaincave",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier4Everything", "Weight": 4 },
+        { "Item": "Tier4Everything", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_plains_stone",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "TreasureChest_heath.5", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_heath",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier5Everything", "Weight": 3 },
+        { "Item": "Tier5Everything", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_dvergrtown",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier6Everything", "Weight": 3 },
+        { "Item": "Tier6Everything", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_dvergrtower",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "TreasureChest_dvergrtown.1", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_dvergr_loose_stone",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "TreasureChest_dvergrtown.1", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_charredfortress",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier7Everything", "Weight": 3 },
+        { "Item": "Tier7Everything", "Weight": 1 }
+      ]
+    },
+    {
+      "Object": "TreasureChest_ashland_stone",
+      "Drops": [ [0, 58], [1, 30], [2, 20], [3, 2] ],
+      "Loot": [
+        { "Item": "Tier7Everything", "Weight": 3 },
+        { "Item": "Tier7Everything", "Weight": 1 }
+      ]
+    },
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // TREASURE MAP CHESTS
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+      "Object": "TreasureMapChest_Meadows",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 68, 30, 2, 0, 0] },
+        { "Item": "Tier1Everything", "Weight": 1, "Rarity": [ 68, 30, 2, 0, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_BlackForest",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 40, 50, 9, 1, 0] },
+        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 40, 50, 9, 1, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_Swamp",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 10, 45, 50, 5, 0] },
+        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 10, 45, 50, 5, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_Mountain",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 30, 60, 10, 0] },
+        { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 30, 60, 10, 0] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_Plains",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 14, 1] },
+        { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 10, 75, 14, 1] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_Mistlands",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 0, 5, 70, 20, 5] },
+        { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 0, 5, 70, 20, 5] }
+      ]
+    },
+    {
+      "Object": "TreasureMapChest_AshLands",
+      "Drops": [ [3, 80], [4, 15], [5, 5] ],
+      "Loot": [
+        { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 0, 0, 65, 25, 10] },
+        { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 0, 0, 65, 25, 10] }
+      ]
+    }
+  ]
+}
