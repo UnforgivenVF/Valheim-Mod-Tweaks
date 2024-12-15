@@ -1545,7 +1545,7 @@
           "Level": 1,
           "Drops": [  [4, 70], [5, 25], [6, 5] ],
           "Loot": [
-            { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 0, 0, 80, 19, 1 ] }
+            { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 0, 80, 19, 1 ] }
           ]
         },
         {
@@ -1752,24 +1752,24 @@
       "Object": "TreasureChest_swamp",
       "Drops": [ [0, 1], [1, 19], [2, 60], [3, 20] ],
       "Loot": [
-        { "Item": "Tier2Everything", "Weight": 1, "Rarity": [ 10, 70, 20, 0, 0] },  
-        { "Item": "Tier3Everything", "Weight": 5, "Rarity": [ 10, 70, 20, 0, 0] }
+        { "Item": "Tier2Everything", "Weight": 1 },  
+        { "Item": "Tier3Everything", "Weight": 5 }
       ]
     },
     {
       "Object": "TreasureChest_mountains",
       "Drops": [ [0, 1], [1, 9], [2, 60], [3, 30] ],
       "Loot": [
-        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 15, 70, 15, 0] },
-        { "Item": "Tier4Everything", "Weight": 5, "Rarity": [ 0, 15, 70, 15, 0] }
+        { "Item": "Tier3Everything", "Weight": 1 },
+        { "Item": "Tier4Everything", "Weight": 5 }
       ]
     },
     {
       "Object": "TreasureChest_mountaincave",
       "Drops": [ [0, 1], [1, 9], [2, 60], [3, 30] ],
       "Loot": [
-        { "Item": "Tier3Everything", "Weight": 1, "Rarity": [ 0, 15, 70, 15, 0] },
-        { "Item": "Tier4Everything", "Weight": 5, "Rarity": [ 0, 15, 70, 15, 0] }
+        { "Item": "Tier3Everything", "Weight": 1 },
+        { "Item": "Tier4Everything", "Weight": 5 }
       ]
     },
     {
@@ -1783,16 +1783,16 @@
       "Object": "TreasureChest_heath",
       "Drops": [ [1, 10], [2, 60], [3, 30] ],
       "Loot": [
-        { "Item": "Tier4Everything", "Weight": 1, "Rarity": [ 0, 0, 80, 20, 0] },
-        { "Item": "Tier5Everything", "Weight": 5, "Rarity": [ 0, 0, 80, 20, 0] }
+        { "Item": "Tier4Everything", "Weight": 1 },
+        { "Item": "Tier5Everything", "Weight": 5 }
       ]
     },
     {
       "Object": "TreasureChest_dvergrtown",
       "Drops": [ [0, 1], [1, 9], [2, 60], [3, 30] ],
       "Loot": [
-        { "Item": "Tier5Everything", "Weight": 1, "Rarity": [ 0, 0, 75, 25, 0] },
-        { "Item": "Tier6Everything", "Weight": 5, "Rarity": [ 0, 0, 75, 25, 0] }
+        { "Item": "Tier5Everything", "Weight": 1 },
+        { "Item": "Tier6Everything", "Weight": 5 }
       ]
     },
     {
@@ -1813,16 +1813,16 @@
       "Object": "TreasureChest_charredfortress",
       "Drops": [ [0, 1], [1, 9], [2, 60], [3, 30] ],
       "Loot": [
-        { "Item": "Tier7Everything", "Weight": 1, "Rarity": [ 0, 0, 60, 30, 10] },
-        { "Item": "Tier7Everything", "Weight": 5, "Rarity": [ 0, 0, 60, 30, 10] }
+        { "Item": "Tier6Everything", "Weight": 1 },
+        { "Item": "Tier7Everything", "Weight": 5 }
       ]
     },
     {
       "Object": "TreasureChest_ashland_stone",
       "Drops": [ [0, 1], [1, 9], [2, 60], [3, 30] ],
       "Loot": [
-        { "Item": "Tier6Everything", "Weight": 1, "Rarity": [ 0, 0, 60, 30, 10] },
-        { "Item": "Tier7Everything", "Weight": 5, "Rarity": [ 0, 0, 60, 30, 10] }
+        { "Item": "Tier6Everything", "Weight": 1 },
+        { "Item": "Tier7Everything", "Weight": 5 }
       ]
     },
 
