@@ -155,7 +155,7 @@
         { "Item": "Tier0Tools",   "Weight": 2 }
       ]
     },
-    // Tier 1 Items [Meadows]
+    // Tier 1 Items Meadows
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier1Weapons",
@@ -202,7 +202,7 @@
         { "Item": "Tier1Tools",   "Weight": 2 }
       ]
     },
-    // Tier 2 Items [Black Forest]
+    // Tier 2 Items Black Forest
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier2Weapons",
@@ -257,18 +257,17 @@
         { "Item": "HelmetSpellslinger_Blackforest_TW",     "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
         { "Item": "ArmorSpellSlingerChest_BlackForest_TW", "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
         { "Item": "ArmorSpellSlingerLegs_BlackForest_TW",  "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
-    // Rings and Circlets //
+        // Rings and Circlets //
         { "Item": "RingBlackForest_TW",                    "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
         { "Item": "HelmetCircletBronze_Elemental_TW",      "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
         { "Item": "HelmetCircletBronze_Hunter_TW",         "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
         { "Item": "HelmetCircletBronze_Sneak_TW",          "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
         { "Item": "HelmetCircletBronze_Stamina_TW",        "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
-
-    // Capes //
+        // Capes //
         { "Item": "CapeTrollHide",                         "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
         { "Item": "CapeSpellslinger_Blackforest_TW",       "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
         { "Item": "CapeTrollBlack_TW",                     "Weight": 2, "Rarity": [ 80, 14, 4, 2, 0 ] },
-    // Shields //
+        // Shields //
         { "Item": "ShieldBronzeBuckler",                   "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
 	      { "Item": "ShieldBronzeBanded_TW",                 "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] },
 	      { "Item": "ShieldBronzeTower_TW",                  "Weight": 3, "Rarity": [ 80, 14, 4, 2, 0 ] }
@@ -290,7 +289,7 @@
         { "Item": "Tier2Tools",     "Weight": 1 }
       ]
     },
-    // Tier 3 Items [Swamp]
+    // Tier 3 Items Swamp
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier3Weapons",
@@ -353,20 +352,19 @@
         { "Item": "HelmetSpellSlinger_Swamp_TW",     "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
         { "Item": "ArmorSpellSlingerChest_Swamp_TW", "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
         { "Item": "ArmorSpellSlingerLegs_Swamp_TW",  "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
-    // Rings and Circlets //
+        // Rings and Circlets //
         { "Item": "RingSwamp_TW",                    "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
         { "Item": "HelmetCircletIron_Elemental_TW",  "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
         { "Item": "HelmetCircletIron_Hunter_TW",     "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
         { "Item": "HelmetCircletIron_Sneak_TW",      "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
         { "Item": "HelmetCircletIron_Stamina_TW",    "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
-
-    // Shields //
+        // Shields //
         { "Item": "ShieldBanded",                    "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
         { "Item": "ShieldIronTower",                 "Weight": 3, "Rarity": [ 38, 50, 8, 3, 1 ] },
 	      { "Item": "ShieldChitin_TW",                 "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
 	      { "Item": "ShieldChitinTower_TW",            "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
 	      { "Item": "ShieldChitinBuckler_TW",          "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] },
-    // Capes //
+        // Capes //
         { "Item": "CapeRotten_TW",                   "Weight": 2, "Rarity": [ 38, 50, 8, 3, 1 ] }
       ]
     },
@@ -385,7 +383,7 @@
         { "Item": "Tier3Tools",   "Weight": 1 }
       ]
     },
-    // Tier 4 Items [Mountain]
+    // Tier 4 Items Mountain
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier4Weapons",
@@ -443,16 +441,16 @@
         { "Item": "HelmetSpellSlinger_Mountain_TW",     "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
         { "Item": "ArmorSpellSlingerChest_Mountain_TW", "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
         { "Item": "ArmorSpellSlingerLegs_Mountain_TW",  "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
-    // Rings and Circlets //
+        // Rings and Circlets //
         { "Item": "RingMountain_TW",                    "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },    
         { "Item": "HelmetCircletSilver_Elemental_TW",   "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
         { "Item": "HelmetCircletSilver_Hunter_TW",      "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
         { "Item": "HelmetCircletSilver_Sneak_TW",       "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
         { "Item": "HelmetCircleSilver_Stamina_TW",      "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },  
-    // Capes //
+        // Capes //
         { "Item": "CapeSpellslinger_Mountain_TW",       "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
 	      { "Item": "CapeWolf",                           "Weight": 2, "Rarity": [ 5, 35, 50, 17, 3 ] },
-    // Shields //
+        // Shields //
         { "Item": "ShieldSilver",                       "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
         { "Item": "ShieldSilverBuckler_TW",             "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] },
         { "Item": "ShieldSerpentscale",                 "Weight": 3, "Rarity": [ 5, 35, 50, 17, 3 ] }
@@ -473,7 +471,7 @@
         { "Item": "Tier4Tools",   "Weight": 1 }
       ]
     },
-    // Tier 5 Items [Plains]
+    // Tier 5 Items Plains
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier5Weapons",
@@ -534,17 +532,16 @@
         { "Item": "HelmetSpellSlinger_Plains_TW",     "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "ArmorSpellSlingerChest_Plains_TW", "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "ArmorSpellSlingerLegs_Plains_TW",  "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
-    // Rings and Circlets //
+        // Rings and Circlets //
         { "Item": "RingPlains_TW",                    "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "HelmetCircletBM_Elemental_TW",     "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "HelmetCircletBM_Hunter_TW",        "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "HelmetCircletBM_Sneak_TW",         "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "HelmetCircletBM_Stamina_TW",       "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
-    // Capes //
+        // Capes //
         { "Item": "CapeLox",                          "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "CapeSpellSlinger_Plains_TW",       "Weight": 2, "Rarity": [ 0, 15, 60, 20, 5 ] },
-
-    // Shields //
+        // Shields //
         { "Item": "ShieldBlackmetal",                 "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "ShieldBlackmetalTower",            "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] },
         { "Item": "ShieldBlackmetalBuckler_TW",       "Weight": 3, "Rarity": [ 0, 15, 60, 20, 5 ] }  
@@ -564,7 +561,7 @@
         { "Item": "Tier5Tools",   "Weight": 1 }
       ]
     },
-    // Tier 6 Items [Mistlands]
+    // Tier 6 Items Mistlands
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier6Weapons",
@@ -630,16 +627,16 @@
         { "Item": "HelmetSpellslinger_Mistlands_TW",     "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "ArmorSpellslingerChest_Mistlands_TW", "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "ArmorSpellslingerLegs_Mistlands_TW",  "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
-    // Capes //
+        // Capes //
         { "Item": "CapeFeather",                         "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "CapeSpellslinger_Mistlands_TW",       "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
-    // Rings and Circlets //
+        // Rings and Circlets //
         { "Item": "RingMistlands_TW",                    "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "HelmetCircletCarapace_Elemental_TW",  "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "HelmetCircletCarapace_Hunter_TW",     "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "HelmetCircletCarapace_Sneak_TW",      "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "HelmetCircletCarapace_Stamina_TW",    "Weight": 2, "Rarity": [ 0, 10, 50, 30, 10 ] },
-    // Shields
+        // Shields
         { "Item": "ShieldCarapace",                      "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "ShieldCarapaceBuckler",               "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] },
         { "Item": "ShieldCarapaceTower_TW",              "Weight": 3, "Rarity": [ 0, 10, 50, 30, 10 ] }       
@@ -661,7 +658,7 @@
         { "Item": "Tier6Tools",   "Weight": 1 }
       ]
     },
-    // Tier 7 Items [Ashlands]
+    // Tier 7 Items Ashlands
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier7Weapons",
@@ -702,10 +699,10 @@
         { "Item": "HelmetWarriorFlametal_TW",        "Weight": 3, "Rarity": [ 0, 0, 10, 65, 25 ] },
         { "Item": "ArmorWarriorFlametalChest_TW",    "Weight": 3, "Rarity": [ 0, 0, 10, 65, 25 ] },
         { "Item": "ArmorWarriorFlametalLegs_TW",     "Weight": 3, "Rarity": [ 0, 0, 10, 65, 25 ] },
-    // Shields //
+        // Shields //
         { "Item": "ShieldFlametal",                  "Weight": 3, "Rarity": [ 0, 0, 10, 65, 25 ] },
         { "Item": "ShieldFlametalTower",             "Weight": 3, "Rarity": [ 0, 0, 10, 65, 25 ] },
-    // Capes //
+        // Capes //
         { "Item": "CapeAsh",                         "Weight": 2, "Rarity": [ 0, 0, 10, 65, 25 ] },
         { "Item": "CapeAsksvin",                     "Weight": 2, "Rarity": [ 0, 0, 10, 65, 25 ] }
       ]
@@ -725,7 +722,7 @@
         { "Item": "Tier7Tools",   "Weight": 1 }
       ]
     },
-        // Tier 8 Items [North]
+    // Tier 8 Items Deep North
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Name": "Tier8Weapons",
@@ -811,13 +808,13 @@
 		    { "Item": "HelmetWarriorRagnorite_TW",       "Weight": 3, "Rarity": [ 0, 0, 0, 65, 35 ] },
 		    { "Item": "ArmorWarriorRagnoriteChest_TW",   "Weight": 3, "Rarity": [ 0, 0, 0, 65, 35 ] },
 		    { "Item": "ArmorWarriorRagnoriteLegs_TW",    "Weight": 3, "Rarity": [ 0, 0, 0, 65, 35 ] },
-    // Capes //
+        // Capes //
         { "Item": "CapeDemon_TW",                    "Weight": 2, "Rarity": [ 0, 0, 0, 65, 35 ] },
         { "Item": "CapeNorth_TW",                    "Weight": 2, "Rarity": [ 0, 0, 0, 65, 35 ] },
         { "Item": "CapeSurtr_TW",                    "Weight": 2, "Rarity": [ 0, 0, 0, 65, 35 ] },
         { "Item": "CapeYmir_TW",                     "Weight": 2, "Rarity": [ 0, 0, 0, 65, 35 ] },
         { "Item": "CapeFenrir_TW",                   "Weight": 2, "Rarity": [ 0, 0, 0, 65, 35 ] },
-    // Shields //
+        // Shields //
         { "Item": "ShieldTyraniumBuckler_TW",        "Weight": 3, "Rarity": [ 0, 0, 0, 65, 35 ] },
         { "Item": "ShieldFlametalBuckler_TW",        "Weight": 3, "Rarity": [ 0, 0, 0, 65, 35 ] },
         { "Item": "ShieldArcticSerpentscale_TW",     "Weight": 3, "Rarity": [ 0, 0, 0, 65, 35 ] },
@@ -840,7 +837,7 @@
       "Loot": [
         { "Item": "Tier8Weapons", "Weight": 3 },
         { "Item": "Tier8Armor",   "Weight": 3 },
-        { "Item": "Tier8Tools",  "Weight": 1 }
+        { "Item": "Tier8Tools",   "Weight": 1 }
       ]
     }
   ],
@@ -1250,7 +1247,7 @@
       ]
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 0 Mobs (Greyling, Deer, Boar, Neck)
+    // Tier 0 Mobs Meadows (Greyling, Deer, Boar, Neck, Fox, Sheep)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Greyling",
@@ -1277,7 +1274,7 @@
       "RefObject": "Tier0Mob"
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 2 Mobs [Forest] (Ghost, Greydwarf, Greydwarf Brute, Greydwarf Shaman, Rancid Remains, Skeleton, Troll)
+    // Tier 2 Mobs Forest (Ghost, Greydwarf, Greydwarf Brute, Greydwarf Shaman, Rancid Remains, Skeleton, Troll, Razorback, Blackbear)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Ghost",
@@ -1325,7 +1322,7 @@
       "RefObject": "Tier2Mob"
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 3 Mobs [Swamp] (Abomination, Blob, Draugr, Draugr Archer, Draugr Elite, Leech, Oozer, Surtling, Wraith)
+    // Tier 3 Mobs Swamp (Abomination, Blob, Draugr, Draugr Archer, Draugr Elite, Leech, Oozer, Surtling, Wraith)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Abomination",
@@ -1382,7 +1379,7 @@
       "RefObject": "Tier3Mob"
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 4 Mobs [Mountain](Drake, Fenring, Fenring_Cultist, Serpent, Stone Golem, Ulv, Wolf)
+    // Tier 4 Mobs Mountain(Drake, Fenring, Fenring_Cultist, Serpent, Stone Golem, Ulv, Wolf)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Drake
     {
@@ -1426,7 +1423,7 @@
       "RefObject": "Tier4Mob"
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    //Begin Tier 5 Mobs [Plains] (Deathsquito, Lox, Fuling, Fuling Archer, Fuling Berserker, Fuling Shaman)
+    //Begin Tier 5 Mobs Plains (Deathsquito, Lox, Fuling, Fuling Archer, Fuling Berserker, Fuling Shaman)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Deathsquito",
@@ -1469,7 +1466,7 @@
       "RefObject": "Tier5Mob"
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 6 Mobs [Mistlands] (Dvergr, Gjall, Seeker, SeekerBrute, Tick)
+    // Tier 6 Mobs Mistlands (Dvergr, Gjall, Seeker, SeekerBrute, Tick)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "Dverger",
@@ -1555,7 +1552,7 @@
       "RefObject": "Tier7Mob"
     },
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Tier 7 Mobs (TBA)
+    // Tier 8 Mobs (TBA)
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Object": "SurtrImp_TW",
@@ -1652,7 +1649,7 @@
       "LeveledLoot": [
         {
           "Level": 1,
-          "Drops": [ [1, 0], [4, 70], [5, 70] ],
+          "Drops": [ [4, 70], [5, 30] ],
           "Loot": [
             { "Item": "Tier1Everything",   "Weight": 3, "Rarity": [ 77, 20, 2, 1, 0 ] },
             { "Item": "SledgeStagbreaker", "Weight": 1, "Rarity": [ 77, 20, 2, 1, 0 ] }
@@ -1660,35 +1657,35 @@
         },
         {
           "Level": 2,
-          "Drops": [ [1, 60], [2, 40], [4, 0] ],
+          "Drops": [ [4, 70], [5, 30] ],
           "Loot": [
             { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 75, 21, 3, 1, 0 ] }
           ]
         },
         {
           "Level": 3,
-          "Drops": [ [1, 50], [2, 50], [4, 0] ],
+          "Drops": [ [4, 70], [5, 30] ],
           "Loot": [
             { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 69, 24, 5, 2, 0 ] }
           ]
         },
         {
           "Level": 4,
-          "Drops": [ [1, 35], [2, 60], [3, 5], [4, 0] ],
+          "Drops": [ [4, 70], [5, 30] ],
           "Loot": [
             { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 53, 32, 10, 5, 0 ] }
           ]
         },
         {
           "Level": 5,
-          "Drops": [ [1, 20], [2, 70], [3, 10], [4, 0] ],
+          "Drops": [ [4, 70], [5, 30] ],
           "Loot": [
             { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 35, 40, 15, 10, 0 ] }
           ]
         },
         {
           "Level": 6,
-          "Drops": [ [1, 5], [2, 80], [3, 15], [4, 0] ],
+          "Drops": [ [4, 70], [5, 30] ],
           "Loot": [
             { "Item": "Eikthyr.1", "Weight": 1, "Rarity": [ 20, 45, 20, 15, 0 ] }
           ]
@@ -1737,7 +1734,7 @@
         },
         {
           "Level": 6,
-          "Drops": [ [1, 0], [2, 40], [3, 50], [4, 10] ],
+          "Drops": [ [4, 50], [5, 50] ],
           "Loot": [
             { "Item": "gd_king.1", "Weight": 1, "Rarity": [ 0, 25, 50, 23, 2 ] }
           ]
