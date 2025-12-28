@@ -2717,6 +2717,26 @@
       ]
     },
     {
+      "Name": "Tier5Unidentified",
+      "Loot": [
+        {
+          "Item": "Plains_Epic_Unidentified",
+          "Weight": 10.0,
+          "Rarity": []
+        },
+        {
+          "Item": "Plains_Legendary_Unidentified",
+          "Weight": 1.5,
+          "Rarity": []
+        },
+        {
+          "Item": "Plains_Mythic_Unidentified",
+          "Weight": 0.1,
+          "Rarity": []
+        }
+      ]
+    },
+    {
       "Name": "Tier5Everything",
       "Loot": [
         {
@@ -4709,7 +4729,7 @@
           ],
           "Loot": [
             {
-              "Item": "Tier5Everything",
+              "Item": "Tier5Unidentified",
               "Weight": 1.0,
               "Rarity": []
             }
@@ -4733,7 +4753,7 @@
           ],
           "Loot": [
             {
-              "Item": "Tier5Everything",
+              "Item": "Tier5Unidentified",
               "Weight": 1.0,
               "Rarity": []
             }
@@ -4757,7 +4777,7 @@
           ],
           "Loot": [
             {
-              "Item": "Tier5Everything",
+              "Item": "Tier5Unidentified",
               "Weight": 1.0,
               "Rarity": []
             }
@@ -4781,7 +4801,7 @@
           ],
           "Loot": [
             {
-              "Item": "Tier5Everything",
+              "Item": "Tier5Unidentified",
               "Weight": 1.0,
               "Rarity": []
             }
@@ -4805,7 +4825,7 @@
           ],
           "Loot": [
             {
-              "Item": "Tier5Everything",
+              "Item": "Tier5Unidentified",
               "Weight": 1.0,
               "Rarity": []
             }
@@ -4829,7 +4849,7 @@
           ],
           "Loot": [
             {
-              "Item": "Tier5Everything",
+              "Item": "Plains_Epic_Unidentified",
               "Weight": 1.0,
               "Rarity": []
             }
