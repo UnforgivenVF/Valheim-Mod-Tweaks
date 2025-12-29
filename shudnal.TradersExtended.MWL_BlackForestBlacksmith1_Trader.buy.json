@@ -1,0 +1,768 @@
+[
+  {
+    "prefab": "HelmetLeather_TW",
+    "stack": 1,
+    "price": 25,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorLeatherChest_TW",
+    "stack": 1,
+    "price": 25,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorLeatherLegs_TW",
+    "stack": 1,
+    "price": 25,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetRazorback_TW",
+    "stack": 1,
+    "price": 25,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorRazorbackChest_TW",
+    "stack": 1,
+    "price": 25,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorRazorbackLegs_TW",
+    "stack": 1,
+    "price": 25,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetRogue_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorRogueLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorRogueChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "CapeTrollBlack_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetRogueSilver_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorRogueSilverChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorRogueSilverLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetRogueBM_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorRogueBMChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorRogueBMLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetHunter_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorHunterChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorHunterLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetHunterIron_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorHunterChestIron_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorHunterLegsIron_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetHunterSilver_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorHunterChestSilver_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorHunterLegsSilver_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+
+  {
+    "prefab": "HelmetHunterBM_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorHunterChestBM_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorHunterLegsBM_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetVigorous_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetVigorousIron_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousIronChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousIronLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousIronLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousIronLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousIronLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetVigorousSilver_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousSilverChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousSilverLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetVigorousBM_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousBMChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVigorousBMLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetWarrior_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorWarriorChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorWarriorLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetWarriorSilver_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorWarriorSilverChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorWarriorSilverLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetWarriorBM_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorWarriorBMChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorWarriorBMLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetWarriorFlametal_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorWarriorFlametalChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorWarriorFlametalLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetFenrir_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorFenrirChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorFenrirLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetFenrirBM_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorFenrirBMChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorFenrirBMLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetFenrirCarapace_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorFenrirCarapaceChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorFenrirCarapaceLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetFenrirTyranium_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorFenrirTyraniumChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorFenrirTyraniumLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetVidar_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVidarChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVidarLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetVidarBM_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVidarBMChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVidarBMLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetVidarFlametal_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVidarFlametalChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorVidarFlametalLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetBold_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorBoldChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorBoldLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetBoldFlametal_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorBoldFlametalChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorBoldFlametalLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "HelmetLegionFlametal_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorLegionFlametalChest_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  },
+  {
+    "prefab": "ArmorLegionFlametalLegs_TW",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "",
+    "notRequiredGlobalKey": "",
+    "requiredPlayerKey": "KilledTroll",
+    "notRequiredPlayerKey": ""
+  }
+]
