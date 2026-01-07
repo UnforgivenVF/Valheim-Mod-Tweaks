@@ -1145,6 +1145,26 @@
       ]
     },
     {
+      "Name": "Tier2Unidentified",
+      "Loot": [
+        {
+          "Item": "BlackForest_Magic_Unidentified",
+          "Weight": 10.0,
+          "Rarity": []
+        },
+        {
+          "Item": "BlackForest_Rare_Unidentified",
+          "Weight": 1.5,
+          "Rarity": []
+        },
+        {
+          "Item": "BlackForest_Epic_Unidentified",
+          "Weight": 0.1,
+          "Rarity": []
+        }
+      ]
+    },
+    {
       "Name": "Tier2Everything",
       "Loot": [
         {
@@ -1154,7 +1174,7 @@
         },
         {
           "Item": "Tier2Tools",
-          "Weight": 1.0,
+          "Weight": 1.5,
           "Rarity": null
         },
         {
@@ -1724,6 +1744,26 @@
       ]
     },
     {
+      "Name": "Tier3Unidentified",
+      "Loot": [
+        {
+          "Item": "Swamp_Magic_Unidentified",
+          "Weight": 10.0,
+          "Rarity": null
+        },
+        {
+          "Item": "Swamp_Rare_Unidentified",
+          "Weight": 5.0,
+          "Rarity": null
+        },
+        {
+          "Item": "Swamp_Epic_Unidentified",
+          "Weight": 0.5,
+          "Rarity": null
+        }
+      ]
+    },
+    {
       "Name": "Tier3Everything",
       "Loot": [
         {
@@ -1733,7 +1773,7 @@
         },
         {
           "Item": "Tier3Tools",
-          "Weight": 1.0,
+          "Weight": 1.5,
           "Rarity": null
         },
         {
@@ -2171,6 +2211,26 @@
       ]
     },
     {
+      "Name": "Tier4Unidentified",
+      "Loot": [
+        {
+          "Item": "Mountain_Rare_Unidentified",
+          "Weight": 10.0,
+          "Rarity": null
+        },
+        {
+          "Item": "Mountain_Epic_Unidentified",
+          "Weight": 1.5,
+          "Rarity": null
+        },
+        {
+          "Item": "Mountain_Legendary_Unidentified",
+          "Weight": 0.1,
+          "Rarity": null
+        }
+      ]
+    },
+    {
       "Name": "Tier4Everything",
       "Loot": [
         {
@@ -2180,7 +2240,7 @@
         },
         {
           "Item": "Tier4Tools",
-          "Weight": 1.0,
+          "Weight": 1.5,
           "Rarity": null
         },
         {
@@ -3349,6 +3409,21 @@
       ]
     },
     {
+      "Name": "Tier6Unidentified",
+      "Loot": [
+        {
+          "Item": "Mistlands_Legendary_Unidentified",
+          "Weight": 10.0,
+          "Rarity": null
+        },
+        {
+          "Item": "Mistlands_Mythic_Unidentified",
+          "Weight": 1.5,
+          "Rarity": null
+        }
+      ]
+    },
+    {
       "Name": "Tier6Everything",
       "Loot": [
         {
@@ -3358,7 +3433,7 @@
         },
         {
           "Item": "Tier6Tools",
-          "Weight": 1.0,
+          "Weight": 1.5,
           "Rarity": null
         },
         {
@@ -3774,6 +3849,16 @@
       ]
     },
     {
+      "Name": "AshlandsUnidentified",
+      "Loot": [
+        {
+          "Item": "Ashlands_Mythic_Unidentified",
+          "Weight": 1.0,
+          "Rarity": null
+        }
+      ]
+    }
+    {
       "Name": "Tier7Everything",
       "Loot": [
         {
@@ -3813,13 +3898,7 @@
             {
               "Item": "Tier0Everything",
               "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         },
@@ -3835,13 +3914,7 @@
             {
               "Item": "Tier0Everything",
               "Weight": 2.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         },
@@ -3857,13 +3930,7 @@
             {
               "Item": "Tier0Everything",
               "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         },
@@ -3879,13 +3946,7 @@
             {
               "Item": "Tier0Everything",
               "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         },
@@ -3901,13 +3962,7 @@
             {
               "Item": "Tier0Everything",
               "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         },
@@ -3923,13 +3978,7 @@
             {
               "Item": "Tier0Everything",
               "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         }
@@ -3953,24 +4002,12 @@
             {
               "Item": "Tier1Everything",
               "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             },
             {
               "Item": "Tier1Everything",
-              "Weight": 3.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Weight": 1.0,
+              "Rarity": []
             }
           ]
         },
@@ -3986,24 +4023,12 @@
             {
               "Item": "Tier0Everything",
               "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             },
             {
               "Item": "Tier1Everything",
-              "Weight": 3.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Weight": 1.0,
+              "Rarity": []
             }
           ]
         },
@@ -4019,24 +4044,12 @@
             {
               "Item": "Tier0Everything",
               "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             },
             {
               "Item": "Tier1Everything",
-              "Weight": 3.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Weight": 1.0,
+              "Rarity": []
             }
           ]
         },
@@ -4050,26 +4063,9 @@
           ],
           "Loot": [
             {
-              "Item": "Tier0Everything",
-              "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
               "Item": "Tier1Everything",
-              "Weight": 3.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Weight": 1.0,
+              "Rarity": []
             }
           ]
         },
@@ -4083,26 +4079,9 @@
           ],
           "Loot": [
             {
-              "Item": "Tier0Everything",
-              "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
               "Item": "Tier1Everything",
-              "Weight": 3.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Weight": 1.0,
+              "Rarity": []
             }
           ]
         },
@@ -4116,19 +4095,8 @@
           ],
           "Loot": [
             {
-              "Item": "Tier0Everything",
-              "Weight": 1.0,
-              "Rarity": [
-                90.0,
-                9.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
               "Item": "Tier1Everything",
-              "Weight": 3.0,
+              "Weight": 1.0,
               "Rarity": [
                 90.0,
                 9.0,
@@ -4152,178 +4120,142 @@
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier2Everything",
+              "Item": "Tier2Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                95.0,
-                4.8,
-                0.2,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
-          ]
+          ],
         },
         {
           "Level": 2,
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier2Everything",
+              "Item": "Tier2Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                95.0,
-                4.8,
-                0.2,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
-          ]
+          ],
         },
         {
           "Level": 3,
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier2Everything",
+              "Item": "Tier2Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                95.0,
-                4.8,
-                0.2,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
-          ]
+          ],
         },
         {
           "Level": 4,
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier2Everything",
+              "Item": "Tier2Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                95.0,
-                4.8,
-                0.2,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
-          ]
+          ],
         },
         {
           "Level": 5,
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier2Everything",
+              "Item": "Tier2Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                95.0,
-                4.8,
-                0.2,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
-          ]
+          ],
         },
         {
           "Level": 6,
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
               "Item": "Tier2Everything",
               "Weight": 1.0,
-              "Rarity": [
-                95.0,
-                4.8,
-                0.2,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         }
@@ -4340,88 +4272,70 @@
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier3Everything",
+              "Item": "Tier3Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                85.0,
-                14.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
-          ]
+          ],
         },
         {
           "Level": 2,
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier3Everything",
+              "Item": "Tier3Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                85.0,
-                14.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
-          ]
+          ],
         },
         {
           "Level": 3,
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
-            ]
+              3.0
+            ],
           ],
           "Loot": [
             {
-              "Item": "Tier3Everything",
+              "Item": "Tier3Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                85.0,
-                14.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         },
@@ -4430,28 +4344,22 @@
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier3Everything",
+              "Item": "Tier3Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                85.0,
-                14.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         },
@@ -4460,28 +4368,22 @@
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier3Everything",
+              "Item": "Tier3Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                85.0,
-                14.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         },
@@ -4490,28 +4392,22 @@
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
             {
-              "Item": "Tier3Everything",
+              "Item": "Tier3Unidentified",
               "Weight": 1.0,
-              "Rarity": [
-                85.0,
-                14.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "Rarity": []
             }
           ]
         }
@@ -4528,15 +4424,15 @@
           "Drops": [
             [
               0.0,
-              70.0
+              80.0
             ],
             [
               1.0,
-              25.0
+              17.0
             ],
             [
               2.0,
-              5.0
+              3.0
             ]
           ],
           "Loot": [
@@ -4849,7 +4745,7 @@
           ],
           "Loot": [
             {
-              "Item": "Plains_Epic_Unidentified",
+              "Item": "Tier5Unidentified",
               "Weight": 1.0,
               "Rarity": []
             }
